@@ -19,7 +19,7 @@ body{
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-color: #25171A;
+    background-color:#ececec;
     align-items: center;
     justify-content: center;
 }
@@ -27,7 +27,7 @@ body{
     display: flex;
     width:800px;
     height: 500px;
-    background-color:#4B244A;
+    background-color:#135085;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
@@ -35,27 +35,180 @@ body{
 }
 
 #box-login-esquerda {
-    width: 60%;
+    width: 50%;
     height: 100%;
     padding-top: 20px;
     padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menina {
+    width: 100%;
+    padding-top: 50px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #box-login-direita {
-width: 40%;
+
+text-align: center;
+width: 50%;
 height: 100%;
 padding-top: 20px;
+background-color: white;
+border-radius: 0 20px 20px 0px;
+
 
 }
 
 #box-login-direita h1{
+font-size: 20px;
 font-family: verdana;
-color: white;
+color: black;
+padding-bottom: 15px;
+padding-top: 10px;
+
 }
 
-#box-login-direita p{
+#box-login-direita p.paragrafo{
     font-family: verdana;
-    color: white;
-    font-size: 14px;
+    color: black;
+    font-size: 13px;
     text-align: center;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    p.condicao {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: verdana;
+    }
+    
+
+
+#form {
+    
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#form input {
+     
+    font-family: verdana;
+    font-size: medium;
+    height: 45px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: #ececec;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+#form input::placeholder {
+
+padding-left: 20px;    
+ }
+
+ #botao {
+
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+ }
+
+ #botao button{ 
+    align-self: center;
+    height: 40px;
+    width: 70%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff6600;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-family: verdana;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+    
+    }
+
+    #botao button:hover{ 
+        align-self: center;
+        height: 40px;
+        width: 70%;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 20px;
+        border: none;
+        background-color: #ff802b;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        color: white;
+        font-family: verdana;
+        font-size: medium;
+        font-weight: 600;
+        cursor: pointer;
+        
+        }
+
+
+
+    .loginGoogle {
+    align-self: center;
+    height: 40px;
+    width: 70%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    color: black;
+    font-family: verdana;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+    }
+
+    .loginGoogle:hover {
+        align-self: center;
+        height: 40px;
+        width: 70%;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 20px;
+        border: none;
+        background-color:#c8e1f7;
+        
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        color: white;
+        font-family: verdana;
+        font-size: medium;
+        font-weight: 600;
+        cursor: pointer;
+        }
+
+
+    .linkA {
+        text-decoration: none;
+        color: #4285F4;
+        font-family: verdana;
+        
+    }
+
+    #cadrastro {
+        padding-top: 20px;
     }

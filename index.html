@@ -10,13 +10,36 @@
   <body>
     <main id="conteinerPrincipal">
       <div id="box-login">
-        <div id="box-login-esquerda">olá mundo!</div>
+        <div id="box-login-esquerda">
+          <img
+            src="./asset/img/login.svg"
+            alt="menina_fazendo_login_no_celular"
+            class="menina"
+          />
+        </div>
+
         <div id="box-login-direita">
           <h1>Seja Bem-Vindo</h1>
-          <p>
+
+          <p class="paragrafo">
             Transforme a maneira que você aprende. - Faça Login <br />
             agora e explore infinitas possibilidades
           </p>
+          <form>
+            <div id="form">
+              <input type="email" placeholder="Usuario/E-mail" name="email" />
+              <input type="password" placeholder="Senha" name="password" />
+            </div>
+            <div id="botao">
+              <a href="#" class="linkA"> Esqueceu a Senha?</a>
+              <button type="submit" class="login" name="login">LOGIN</button>
+            </div>
+            <p class="condicao">ou</p>
+            <div><button class="loginGoogle">Entrar com Google</button></div>
+            <div id="cadrastro">
+              <a href="#" class="linkA"> Não tem uma Conta? Cadrastre-se</a>
+            </div>
+          </form>
         </div>
       </div>
     </main>
