@@ -5,9 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./asset/css/style.css" />
     <script src="./asset/javascript/script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/ee92814cc9.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Página de Login e Cadastro com Alternância Dinâmica</title>
   </head>
   <body>
+    <div id="linkUteis">
+      <a href="https://www.linkedin.com/in/danieljorgee/" target="_blank"
+        ><i class="fa-brands fa-linkedin fa-2xl"></i>
+      </a>
+
+      <a href="https://github.com/danyeljorge" target="_blank"
+        ><i class="fa-brands fa-github fa-2xl"></i
+      ></a>
+    </div>
     <main id="conteinerPrincipal">
       <div id="box-login">
         <div id="box-login-esquerda">
@@ -38,6 +51,49 @@
             <div><button class="loginGoogle">Entrar com Google</button></div>
             <div id="cadrastro">
               <a href="#" class="linkA"> Não tem uma Conta? Cadrastre-se</a>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div id="box-cadastro">
+        <div id="box-cadastro-esquerda">
+          <img
+            src="./asset/img/cadastro.svg"
+            alt="menino_fazendo_cadastro"
+            class="menina"
+          />
+        </div>
+
+        <div id="box-cadastro-direita">
+          <h1>Cadastre-se</h1>
+
+          <p class="paragrafo">
+            <strong>Dê o primeiro passo rumo ao seu futuro. </strong><br />
+            Cadastre-se agora e desbloqueie um mundo de conhecimento sem
+            limites!
+          </p>
+          <form>
+            <div id="form">
+              <input type="text" placeholder="Nome" name="nome" />
+              <input type="text" placeholder="Sobrenome" name="sobrenome" />
+              <input
+                type="text"
+                placeholder="Nome do Usuário"
+                name="nome_usuario"
+              />
+              <input type="email" placeholder="Usuário/E-mail" name="email" />
+              <input type="password" placeholder="Senha" name="password" />
+              <input type="checkbox" name="corcorda" /><label
+                >Eu concordo com os termos!</label
+              >
+            </div>
+            <div id="botao">
+              <button type="submit" class="login" name="login">
+                CADASTRAR
+              </button>
+            </div>
+            <div id="cadrastro">
+              <a href="#" class="linkA"> Já tenho uma Conta! Login</a>
             </div>
           </form>
         </div>
