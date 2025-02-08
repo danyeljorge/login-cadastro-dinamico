@@ -254,6 +254,7 @@ margin-left: 20px;
         border-radius: 20px;
         box-shadow:10px 10px 15px rgba(0, 0, 0, 0.2); 
         margin-top: 30px;
+        margin-bottom: 30px;
         
     }
     
@@ -272,7 +273,7 @@ margin-left: 20px;
         text-align: center;
         width: 50%;
         height: 100%;
-        padding-top: 20px;
+        padding-top: 10px;
         background-color: white;
         border-radius: 0 20px 20px 0px;
         
@@ -283,7 +284,7 @@ margin-left: 20px;
             font-size: 20px;
             font-family: verdana;
             color: black;
-            padding-bottom: 15px;
+            padding-bottom: 10px;
             padding-top: 10px;
             
             }
@@ -299,4 +300,63 @@ margin-left: 20px;
                 line-height: 1.5;
                 
                 }
+
+                #formCadastro {
+    
+                    padding-right: 30px;
+                    padding-left: 30px;
+                    padding-bottom: 20px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                }
+                #formCadastro input {
+                     
+                    font-family: verdana;
+                    font-size: medium;
+                    height: 40px;
+                    border-radius: 20px;
+                    outline: none;
+                    border: none;
+                    background-color: #ececec;
+                    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+                    padding-left:20px ;
+                    
+                    
+                }
+                
+                #formCadastro input::placeholder {
+                
+                padding-left: 20px;
+                margin-left: 20px;    
+                 }
+
+                 #formCadastro .nomeSobrenome {
+                    display: flex;
+                    flex-direction: row;
+                    
+                 }
+
+                 #formCadastro .inputNS {
+                    width: 50%;
+                    justify-content: space-between;
+                    
+                 }
+
+
+
+                 .checkout {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+                    
+                 }
+
+                 label {
+                    font-family: Verdana;
+
+                 }
+
              

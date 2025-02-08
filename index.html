@@ -73,19 +73,37 @@
             limites!
           </p>
           <form>
-            <div id="form">
-              <input type="text" placeholder="Nome" name="nome" />
-              <input type="text" placeholder="Sobrenome" name="sobrenome" />
+            <div id="formCadastro">
+              <div class="nomeSobrenome">
+                <input
+                  type="text"
+                  placeholder="Nome"
+                  name="nome"
+                  class="inputNS"
+                />
+                <input
+                  type="text"
+                  placeholder="Sobrenome"
+                  name="sobrenome"
+                  class="inputNS"
+                />
+              </div>
               <input
                 type="text"
                 placeholder="Nome do Usuário"
                 name="nome_usuario"
               />
-              <input type="email" placeholder="Usuário/E-mail" name="email" />
+              <input type="email" placeholder="E-mail" name="email" />
               <input type="password" placeholder="Senha" name="password" />
-              <input type="checkbox" name="corcorda" /><label
-                >Eu concordo com os termos!</label
-              >
+              <div class="checkout">
+                <input
+                  type="checkbox"
+                  name="corcorda"
+                  id="checkbox"
+                  style="box-shadow: none"
+                  required
+                /><label>Eu concordo com os termos!</label>
+              </div>
             </div>
             <div id="botao">
               <button type="submit" class="login" name="login">
