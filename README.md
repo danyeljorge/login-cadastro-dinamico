@@ -56,6 +56,10 @@ Este repositório contém uma página de login interativa com um design moderno 
 - Integração completa com serviços de autenticação (Google, Facebook).
 - Responsividade para demais dispositivos.
 
+## Deploy do Projeto 
+
+https://danyeljorge.github.io/login-cadastro-dinamico/
+
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests para melhorias.
