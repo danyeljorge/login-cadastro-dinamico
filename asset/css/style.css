@@ -18,7 +18,6 @@ powder bluw: #98c1d9
 body{
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
     width: 100vw;
     height: 100vh;
     background-color:#ececec;
