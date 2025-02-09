@@ -1,4 +1,4 @@
-/*const conteiner = document.getElementById("flip");
+const conteiner = document.getElementById("flip");
 const login = document.getElementById("cadastrarUser");
 const cadastrar = document.getElementById("loginUser");
 
@@ -12,9 +12,9 @@ cadastrar.addEventListener("click", (e) => {
   e.preventDefault();
   conteiner.classList.remove("ativo");
   console.log(cadastrar);
-}); */
+});
 
-let linkEvento = document.getElementByIdr("cadastrarUser");
+/* let linkEvento = document.getElementByIdr("cadastrarUser");
 
 function addClass() {
   const elemento = document.querySelector("#flip > #box_cadastro");
@@ -34,4 +34,4 @@ linkEvento.addEventListener("click", () => {
   } else {
     addClass();
   }
-});
+}); */
