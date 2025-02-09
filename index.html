@@ -22,98 +22,125 @@
       ></a>
     </div>
     <main id="conteinerPrincipal">
-      <div id="box-login">
-        <div id="box-login-esquerda">
-          <img
-            src="./asset/img/login.svg"
-            alt="menina_fazendo_login_no_celular"
-            class="menina"
-          />
-        </div>
+      <div id="flip">
+        <div id="box_login" class="front">
+          <div id="box_login_esquerda">
+            <img
+              src="./asset/img/login.svg"
+              alt="menina_fazendo_login_no_celular"
+              class="menina"
+            />
+          </div>
 
-        <div id="box-login-direita">
-          <h1>Seja Bem-Vindo</h1>
+          <div id="box_login_direita">
+            <h1>Seja Bem-Vindo</h1>
 
-          <p class="paragrafo">
-            Transforme a maneira que você aprende. - Faça Login <br />
-            agora e explore infinitas possibilidades
-          </p>
-          <form>
-            <div id="form">
-              <input type="email" placeholder="Usuario/E-mail" name="email" />
-              <input type="password" placeholder="Senha" name="password" />
-            </div>
-            <div id="botao">
-              <a href="#" class="linkA"> Esqueceu a Senha?</a>
-              <button type="submit" class="login" name="login">LOGIN</button>
-            </div>
-            <p class="condicao">ou</p>
-            <div><button class="loginGoogle">Entrar com Google</button></div>
-            <div id="cadrastro">
-              <a href="#" class="linkA"> Não tem uma Conta? Cadrastre-se</a>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div id="box-cadastro">
-        <div id="box-cadastro-esquerda">
-          <img
-            src="./asset/img/cadastro.svg"
-            alt="menino_fazendo_cadastro"
-            class="menina"
-          />
-        </div>
-
-        <div id="box-cadastro-direita">
-          <h1>Cadastre-se</h1>
-
-          <p class="paragrafo">
-            <strong>Dê o primeiro passo rumo ao seu futuro. </strong><br />
-            Cadastre-se agora e desbloqueie um mundo de conhecimento sem
-            limites!
-          </p>
-          <form>
-            <div id="formCadastro">
-              <div class="nomeSobrenome">
+            <p class="paragrafo">
+              Transforme a maneira que você aprende. - Faça Login <br />
+              agora e explore infinitas possibilidades
+            </p>
+            <form>
+              <div id="form">
                 <input
-                  type="text"
-                  placeholder="Nome"
-                  name="nome"
-                  class="inputNS"
-                />
-                <input
-                  type="text"
-                  placeholder="Sobrenome"
-                  name="sobrenome"
-                  class="inputNS"
-                />
-              </div>
-              <input
-                type="text"
-                placeholder="Nome do Usuário"
-                name="nome_usuario"
-              />
-              <input type="email" placeholder="E-mail" name="email" />
-              <input type="password" placeholder="Senha" name="password" />
-              <div class="checkout">
-                <input
-                  type="checkbox"
-                  name="corcorda"
-                  id="checkbox"
-                  style="box-shadow: none"
+                  type="email"
+                  placeholder="Usuario/E-mail"
+                  name="email"
                   required
-                /><label>Eu concordo com os termos!</label>
+                />
+                <input
+                  type="password"
+                  placeholder="Senha"
+                  name="password"
+                  required
+                />
               </div>
-            </div>
-            <div id="botao">
-              <button type="submit" class="login" name="login">
-                CADASTRAR
-              </button>
-            </div>
+              <div id="botao">
+                <a href="#" class="linkA"> Esqueceu a Senha?</a>
+                <button type="submit" class="login" name="login">LOGIN</button>
+              </div>
+              <p class="condicao">ou</p>
+              <div><button class="loginGoogle">Entrar com Google</button></div>
+            </form>
             <div id="cadrastro">
-              <a href="#" class="linkA"> Já tenho uma Conta! Login</a>
+              <a href="#" class="linkA" id="cadastrarUser">
+                Não tem uma Conta? Cadrastre-se</a
+              >
             </div>
-          </form>
+          </div>
+        </div>
+        <div id="box_cadastro" class="back">
+          <div id="box_cadastro_esquerda">
+            <img
+              src="./asset/img/cadastro.svg"
+              alt="menino_fazendo_cadastro"
+              class="menino"
+            />
+          </div>
+
+          <div id="box_cadastro_direita">
+            <h1>Cadastre-se</h1>
+
+            <p class="paragrafo">
+              <strong>Dê o primeiro passo rumo ao seu futuro. </strong><br />
+              Cadastre-se agora e desbloqueie um mundo de conhecimento sem
+              limites!
+            </p>
+            <form>
+              <div id="formCadastro">
+                <div class="nomeSobrenome">
+                  <input
+                    type="text"
+                    placeholder="Nome"
+                    name="nome"
+                    class="inputNS"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Sobrenome"
+                    name="sobrenome"
+                    class="inputNS"
+                  />
+                </div>
+                <input
+                  type="text"
+                  placeholder="Nome do Usuário"
+                  name="nome_usuario"
+                  required
+                />
+                <input
+                  type="email"
+                  placeholder="E-mail"
+                  name="email"
+                  required
+                />
+                <input
+                  type="password"
+                  placeholder="Senha"
+                  name="password"
+                  required
+                />
+                <div class="checkout">
+                  <input
+                    type="checkbox"
+                    name="corcorda"
+                    id="checkbox"
+                    style="box-shadow: none"
+                    required
+                  /><label>Eu concordo com os termos!</label>
+                </div>
+              </div>
+              <div id="botao">
+                <button type="submit" class="login" name="login">
+                  CADASTRAR
+                </button>
+              </div>
+            </form>
+            <div id="cadrastro">
+              <a href="#" class="linkA" id="loginUser">
+                Já tenho uma Conta! Login</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </main>
