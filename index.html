@@ -48,11 +48,28 @@
                   required
                 />
                 <input
+                  id="senha"
                   type="password"
                   placeholder="Senha"
                   name="password"
+                  maxlength="8"
+                  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8}$"
+                  title="A senha deve ter 8 caracteres e incluir pelo menos uma letra maiúscula, uma letra minúscula, um número e um caractere especial (!, @, #, $, etc.)."
                   required
                 />
+                <!-- Ícone do olho -->
+                <span
+                  id="verSenha"
+                  style="
+                    position: absolute;
+                    right: 60px;
+                    top: 43%;
+                    transform: translateY(-50%);
+                    cursor: pointer;
+                  "
+                >
+                  👁️
+                </span>
               </div>
               <div id="botao">
                 <a href="#" class="linkA"> Esqueceu a Senha?</a>
@@ -117,6 +134,9 @@
                   type="password"
                   placeholder="Senha"
                   name="password"
+                  maxlength="8"
+                  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8}$"
+                  title="A senha deve ter 8 caracteres e incluir pelo menos uma letra maiúscula, uma letra minúscula, um número e um caractere especial (!, @, #, $, etc.)."
                   required
                 />
                 <div class="checkout">
