@@ -34,7 +34,7 @@ Este repositório contém uma página de login interativa com um design moderno 
 - **Esqueceu a Senha?**: Link para recuperação de credenciais.
 - **Cadastro**: Redirecionamento para a página de registro.
 - **Ocultar Senha**: Botão para ver e ocultar senha.
-- **Modo Escuro**: Modo Escruro e modo Dark.
+- **Modo Escuro**: Modo Escuro e modo Claro.
 - **Responsividade**: Ainda não implementado, proxima atulização.
 
 
