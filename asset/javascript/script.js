@@ -1,6 +1,16 @@
-const conteiner = document.getElementById("flip");
-const login = document.getElementById("cadastrarUser");
-const cadastrar = document.getElementById("loginUser");
+//  FUNÇÃO DARK E LIGTH
+
+let trilho = document.getElementById("trilho");
+let body = document.querySelector("body");
+let linksUteis = document.getElementById("linkUteis");
+
+trilho.addEventListener("click", () => {
+  trilho.classList.toggle("dark");
+  body.classList.toggle("dark");
+  linksUteis.classList.toggle("dark");
+});
+
+// FUNÇÃO VISUALIZAR E NAO VISUALIZAR SENHA
 
 let verSenha = document.getElementById("verSenha");
 let senha = document.getElementById("senha");
@@ -16,6 +26,12 @@ verSenha.addEventListener("click", () => {
     verSenha.textContent = "👁️";
   }
 });
+
+// FUNÇÃO FLIP DO LOGIN E CADASTRO
+
+const conteiner = document.getElementById("flip");
+const login = document.getElementById("cadastrarUser");
+const cadastrar = document.getElementById("loginUser");
 
 login.addEventListener("click", (e) => {
   e.preventDefault();
